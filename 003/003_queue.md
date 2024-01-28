@@ -1,0 +1,12 @@
+# Queues
+- TF are queues?
+    - Node base structure
+    - A specific implementation of a linkedList
+    - First in, First Out :FIFO
+- A -> B -> C -> D
+- H              T
+-
+- Uses SinglyLinkedLists
+- inserts at tail (T)
+- pops at head (H) 
+- 

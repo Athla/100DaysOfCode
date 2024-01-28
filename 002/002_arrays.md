@@ -38,3 +38,18 @@ func search (arr, v){
 - Works if ordered
 - Jump middle, check if arr(i) == value return true
 - worst possible outcome, value at extremes positions
+- O(log N)
+```
+search (arr, low, high)
+    mid = (low + (hi - low))/2
+    v = arr[mid]
+    if v == need
+        ret true
+    else if v > m
+        low = mid + 1
+    else
+        h = mid 
+
+do while low < high:
+    search (arr, low, high, needle)
+```
